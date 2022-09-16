@@ -1,15 +1,28 @@
 import React from 'react';
-import {View,StyleSheet} from 'react-native';
+import {View,StyleSheet,ScrollView} from 'react-native';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Post from './Components/Post';
 import Stories from './Components/Stories';
+import {POSTS} from '../../Data/data';
 const Homepage=()=>{
+    
     return(
         <View style={styles.homepage} >
             <Header/>
             <Stories/>
-            <Post />
+            <ScrollView>
+                {
+                    POSTS.map((post,index)=>{
+                        return(
+                            <Post  post={post} key={index} />
+                        )
+                        
+                    })
+                }
+               
+            </ScrollView>
+            
             <Footer />
         </View>
     )

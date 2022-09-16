@@ -2,10 +2,10 @@ import {user} from './user';
 
 export const POSTS=[
     {
-        imageurl:'https://picsum.photos/seed/picsum/200/300',
+        imageurl:'https://picsum.photos/200/300',
         user:user[0].user,
         likes:7870,
-        caption:'Bombey To Journey Goa',
+        caption:'Bombey To Journey Goa i am shukla boi the vangers i am fan of captain america',
         profile_picture:user[0].image,
         comments:[
             {
@@ -20,9 +20,9 @@ export const POSTS=[
         ]
     },
     {
-        imageurl:'https://picsum.photos/seed/picsum/200/300',
+        imageurl:'https://picsum.photos/200/300',
         user:user[1].user,
-        likes:7870,
+        likes:9000,
         caption:'Bombey To Journey Goa',
         profile_picture:user[1].image,
         comments:[

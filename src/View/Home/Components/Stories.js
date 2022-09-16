@@ -42,37 +42,30 @@ const Stories=()=>{
 
 const styles=StyleSheet.create({
 
-    stories: {
-    //    borderColor:"red",
-    //    borderWidth:1
-        // backgroundColor:'white'
-    },
 
     imagesView:{
-        
-       
         marginHorizontal:8,
         borderradius:100,
-      
-        
     },
 
     images:{
        height:60,
        width:60,
-       borderWidth:1,
+       borderWidth:2,
        borderColor:"#ff8501",
        borderRadius:50
        
     },  
 
     textView:{
-
+        marginVertical:10
     },
 
     text:{
         color:'white',
-        textAlign:'center'
+        textAlign:'center',
+        fontWeight:'300',
+        
     },
     
 })

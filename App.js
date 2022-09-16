@@ -14,11 +14,10 @@ const App=()=>{
 const styles=StyleSheet.create({
   mainbox: {
     backgroundColor:"black",
-    // height: "100%",
+    
     flex:1,
     color: "white",
-    borderColor:'red',
-    borderWidth: 1,
+   
   }
 })
 
