@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Post from './Components/Post';
 import Stories from './Components/Stories';
+import { bottomTabIcons } from '../../Data/bottomicon';
 import {POSTS} from '../../Data/data';
 const Homepage=()=>{
     
@@ -23,7 +24,7 @@ const Homepage=()=>{
                
             </ScrollView>
             
-            <Footer />
+            <Footer icons={bottomTabIcons} />
         </View>
     )
 }
